@@ -75,6 +75,69 @@ default:
                               labelFill, placement, bufferColor,
                               bufferWidth)
     })];
+                    break;
+case 'Antechinus':
+                    return [ new ol.style.Style({
+        image: new ol.style.Circle({radius: 6.0 + size,
+            displacement: [0, 0],  fill: new ol.style.Fill({color: 'rgba(231,128,147,1.0)'})}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'Brush tail possum ':
+                    return [ new ol.style.Style({
+        image: new ol.style.Circle({radius: 6.0 + size,
+            displacement: [0, 0],  fill: new ol.style.Fill({color: 'rgba(42,74,249,1.0)'})}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'Possum ':
+                    return [ new ol.style.Style({
+        image: new ol.style.Circle({radius: 6.0 + size,
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(42,74,249,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 3.8}), fill: new ol.style.Fill({color: 'rgba(42,74,249,0.0)'})}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'Ring Tail Possum ':
+                    return [ new ol.style.Style({
+        image: new ol.style.Circle({radius: 6.0 + size,
+            displacement: [0, 0],  fill: new ol.style.Fill({color: 'rgba(44,202,210,1.0)'})}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'Squirrel Glider':
+                    return [ new ol.style.Style({
+        image: new ol.style.RegularShape({radius: 18.0 + size, points: 5,
+            radius2: 9.0, displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 2.28}), fill: new ol.style.Fill({color: 'rgba(255,0,179,1.0)'})}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'Sugar Glider':
+                    return [ new ol.style.Style({
+        image: new ol.style.Circle({radius: 6.0 + size,
+            displacement: [0, 0],  fill: new ol.style.Fill({color: 'rgba(239,46,49,1.0)'})}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'Unknown  Owl':
+                    return [ new ol.style.Style({
+        image: new ol.style.Circle({radius: 4.0 + size,
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(255,0,0,1.0)'})}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
                     break;}};
 
 var style_Fulcrumrecordsfieldcrewapp_5 = function(feature, resolution){
